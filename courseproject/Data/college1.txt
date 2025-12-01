@@ -1,0 +1,96 @@
+INSTITUTE NAME: Tech Innovators Institute
+INSTITUTE CODE: TII-301
+LOCATION: Hyderabad, Telangana
+ESTABLISHED: 2011
+
+------------------------------------------------------------
+ABOUT THE INSTITUTE
+------------------------------------------------------------
+Tech Innovators Institute (TII) is a private technical college
+focused on cutting-edge computer science, AI, and IT education.
+Offers practical learning, research labs, hackathons, and strong industry collaboration.
+
+------------------------------------------------------------
+COURSES OFFERED
+------------------------------------------------------------
+1. COURSE NAME: B.Tech Computer Science Engineering
+   COURSE CODE: TII-CSE-101
+   DURATION: 4 Years
+   SEMESTERS: 8
+   ELIGIBILITY: 12th pass with PCM
+   FEES PER YEAR: ₹95,000
+   TOTAL SEATS: 200
+   CERTIFICATIONS: AI Foundations, Cloud Computing Basics
+
+2. COURSE NAME: B.Tech Artificial Intelligence & Data Science
+   COURSE CODE: TII-AI-102
+   DURATION: 4 Years
+   SEMESTERS: 8
+   ELIGIBILITY: 12th pass with PCM
+   FEES PER YEAR: ₹1,00,000
+   TOTAL SEATS: 100
+   CERTIFICATIONS: Python Programming, ML Essentials
+
+3. COURSE NAME: BCA (Bachelor of Computer Applications)
+   COURSE CODE: TII-BCA-103
+   DURATION: 3 Years
+   SEMESTERS: 6
+   ELIGIBILITY: 12th pass (any stream)
+   FEES PER YEAR: ₹65,000
+   TOTAL SEATS: 120
+   CERTIFICATIONS: Web Development, Database Management
+
+4. COURSE NAME: Diploma in Cybersecurity
+   COURSE CODE: TII-DC-104
+   DURATION: 1 Year
+   SEMESTERS: 2
+   ELIGIBILITY: 12th pass
+   FEES: ₹45,000
+   TOTAL SEATS: 50
+   CERTIFICATIONS: Ethical Hacking, Network Security
+
+------------------------------------------------------------
+FACULTY HIGHLIGHTS
+------------------------------------------------------------
+- Dr. Ramesh Kumar: HOD CSE, AI Specialist
+- Ms. Ananya Singh: Cybersecurity & Cloud Computing
+- Mr. Vikas Rao: Data Science & ML Expert
+- Ms. Priya Nair: Web Development & Database
+
+------------------------------------------------------------
+STUDENT CLUBS
+------------------------------------------------------------
+- Coding Club: Hackathons & Projects
+- Robotics Club: Annual Robotics Challenge
+- AI Club: Workshops on ML & AI
+- Cybersecurity Club: Ethical Hacking Competitions
+
+------------------------------------------------------------
+FACILITIES
+------------------------------------------------------------
+- AI & Data Science Labs
+- Cybersecurity Lab
+- Computer Lab (200+ PCs)
+- Library (25,000+ books & e-books)
+- Boys Hostel: ₹60,000/year
+- Girls Hostel: ₹55,000/year
+- Sports Arena, Cafeteria, WiFi Campus
+- Transportation Facility
+
+------------------------------------------------------------
+PLACEMENT DETAILS
+------------------------------------------------------------
+Average Package: ₹6.5 LPA
+Highest Package: ₹18 LPA
+Top Recruiters: Amazon, Microsoft, Infosys, Wipro, IBM
+Placement Support: Aptitude Training, Mock Interviews, Resume Building
+
+------------------------------------------------------------
+EVENTS & ACTIVITIES
+------------------------------------------------------------
+- Annual Tech Fest: InnovateX
+- AI Hackathon
+- Coding Week
+- Robotics Championship
+- Cultural Festival: TechMela
+- Entrepreneurship Bootcamp

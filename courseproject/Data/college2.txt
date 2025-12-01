@@ -1,0 +1,94 @@
+INSTITUTE NAME: Future Computech College
+INSTITUTE CODE: FCC-402
+LOCATION: Pune, Maharashtra
+ESTABLISHED: 2013
+
+------------------------------------------------------------
+ABOUT THE INSTITUTE
+------------------------------------------------------------
+Future Computech College (FCC) focuses on next-gen computer technologies,
+practical software projects, and strong placement support.
+Specialized in Software Engineering, Web Development, Data Analytics, and Cloud Computing.
+
+------------------------------------------------------------
+COURSES OFFERED
+------------------------------------------------------------
+1. COURSE NAME: B.Tech Software Engineering
+   COURSE CODE: FCC-SE-101
+   DURATION: 4 Years
+   SEMESTERS: 8
+   ELIGIBILITY: 12th pass with PCM
+   FEES PER YEAR: ₹92,000
+   TOTAL SEATS: 180
+   CERTIFICATIONS: Full-Stack Web Development, DevOps Basics
+
+2. COURSE NAME: B.Tech Cloud Computing & DevOps
+   COURSE CODE: FCC-CC-102
+   DURATION: 4 Years
+   SEMESTERS: 8
+   ELIGIBILITY: 12th pass with PCM
+   FEES PER YEAR: ₹98,000
+   TOTAL SEATS: 120
+   CERTIFICATIONS: AWS Cloud Practitioner, DevOps Tools
+
+3. COURSE NAME: BCA (Bachelor of Computer Applications)
+   COURSE CODE: FCC-BCA-103
+   DURATION: 3 Years
+   SEMESTERS: 6
+   ELIGIBILITY: 12th pass
+   FEES PER YEAR: ₹62,000
+   TOTAL SEATS: 100
+   CERTIFICATIONS: Frontend Development, Database Admin
+
+4. COURSE NAME: Diploma in AI & Robotics
+   COURSE CODE: FCC-AR-104
+   DURATION: 1 Year
+   SEMESTERS: 2
+   ELIGIBILITY: Any engineering diploma/degree
+   FEES: ₹50,000
+   TOTAL SEATS: 50
+   CERTIFICATIONS: Robotics Programming, AI Integration
+
+------------------------------------------------------------
+FACULTY HIGHLIGHTS
+------------------------------------------------------------
+- Dr. Sneha Patil: Head of Software Engineering
+- Mr. Aditya Joshi: AI & Robotics Specialist
+- Ms. Kavya R: Cloud Computing & DevOps Expert
+- Mr. Rahul Sharma: Web Development & Full-Stack Expert
+
+------------------------------------------------------------
+STUDENT CLUBS
+------------------------------------------------------------
+- Coding & Hackathon Club
+- AI & Robotics Club
+- Cybersecurity Club
+- Entrepreneurship Club
+
+------------------------------------------------------------
+FACILITIES
+------------------------------------------------------------
+- Advanced Computer Labs
+- AI & Robotics Labs
+- Library (30,000+ e-books & journals)
+- Boys Hostel: ₹65,000/year
+- Girls Hostel: ₹60,000/year
+- Sports Complex, Cafeteria, WiFi Campus, Transport
+
+------------------------------------------------------------
+PLACEMENT DETAILS
+------------------------------------------------------------
+Average Package: ₹7 LPA
+Highest Package: ₹20 LPA
+Top Recruiters: Google, Infosys, Cognizant, Wipro, TCS
+Placement Support: Aptitude Training, Mock Interviews, Technical Workshops
+
+------------------------------------------------------------
+EVENTS & ACTIVITIES
+------------------------------------------------------------
+- Annual Tech Fest: CodeFest
+- AI & Robotics Challenge
+- Hackathon Week
+- Cultural Festival: Fusion
+- Entrepreneurship Bootcamp
+- Sports Week: Cricket, Football, Badminton
