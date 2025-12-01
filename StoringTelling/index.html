@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🤖 Gen AI Demo (No Hardcoding)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .hide { display: none; }
+    .spinner { border: 3px solid #eee; border-top: 3px solid #6366f1; border-radius: 50%; width: 20px; height: 20px; animation: spin 1s linear infinite; display:inline-block }
+    @keyframes spin { 100% { transform: rotate(360deg); } }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+  <div class="max-w-3xl mx-auto mt-10 p-6 bg-white shadow rounded-xl">
+    <h1 class="text-2xl font-bold mb-4">🤖 Gen AI Demo (Dynamic Config)</h1>
+    
+    <label class="block text-sm font-medium mb-1">Hugging Face API Token (optional)</label>
+    <input id="hfToken" type="password" placeholder="hf_..." class="border w-full p-2 rounded mb-4"/>
+
+    <label class="block text-sm font-medium mb-1">Prompt</label>
+    <textarea id="userPrompt" rows="3" placeholder="Write something..." class="border w-full p-2 rounded mb-4"></textarea>
+
+    <div class="flex gap-3 mb-4">
+      <button id="btnStory" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">Generate Text</button>
+      <button id="btnClear" class="bg-gray-200 px-4 py-2 rounded hover:bg-gray-300">Clear</button>
+    </div>
+
+    <div id="loading" class="hide"><span class="spinner"></span> Generating...</div>
+    <div id="result" class="mt-4 p-4 bg-gray-50 border rounded hide"></div>
+
+    <p class="text-xs text-gray-400 mt-6">Config dynamically loaded from <code>config.json</code></p>
+  </div>
+
+  <script>
+    let CONFIG = {};
+    let demoText = "Once upon a time, in a world powered by open-source AI... 🌍";
+
+    // Load configuration dynamically
+    async function loadConfig() {
+      try {
+        const res = await fetch('config.json');
+        CONFIG = await res.json();
+        console.log('✅ Config loaded:', CONFIG);
+      } catch (err) {
+        alert('⚠️ Could not load config.json — using safe defaults.');
+        CONFIG = {
+          models: { text: "microsoft/DialoGPT-medium" },
+          fallbackDemo: true
+        };
+      }
+    }
+
+    // Get Hugging Face Token
+    function getToken() {
+      return document.getElementById('hfToken').value.trim();
+    }
+
+    // UI helpers
+    function showSpinner(show = true) {
+      document.getElementById('loading').classList.toggle('hide', !show);
+    }
+    function showResult(text) {
+      const el = document.getElementById('result');
+      el.innerText = text;
+      el.classList.remove('hide');
+    }
+
+    // Generate Text from Hugging Face
+    async function generateText() {
+      const prompt = document.getElementById('userPrompt').value.trim();
+      if (!prompt) return alert("Please enter a prompt.");
+      showSpinner(true);
+
+      const token = getToken();
+      const model = CONFIG.models?.text || "microsoft/DialoGPT-medium";
+
+      try {
+        if (!token) throw new Error("No token provided");
+
+        const response = await fetch(`https://api-inference.huggingface.co/models/${model}`, {
+          method: "POST",
+          headers: {
+            "Authorization": `Bearer ${token}`,
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ inputs: prompt })
+        });
+
+        if (!response.ok) throw new Error("API error: " + response.status);
+        const data = await response.json();
+        const text = data[0]?.generated_text || data.generated_text || "No result";
+        showResult(text);
+      } catch (err) {
+        console.warn("Demo mode fallback:", err.message);
+        showResult(demoText + "\n\n(Powered by Demo Mode)");
+      } finally {
+        showSpinner(false);
+      }
+    }
+
+    // Event listeners
+    document.addEventListener("DOMContentLoaded", async () => {
+      await loadConfig();
+
+      document.getElementById("btnStory").addEventListener("click", generateText);
+      document.getElementById("btnClear").addEventListener("click", () => {
+        document.getElementById("userPrompt").value = "";
+        document.getElementById("result").classList.add("hide");
+      });
+    });
+  </script>
+</body>
+</html>

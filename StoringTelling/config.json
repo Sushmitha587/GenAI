@@ -1,0 +1,13 @@
+{
+    "models": {
+      "text": "microsoft/DialoGPT-medium",
+      "chat": "microsoft/DialoGPT-medium",
+      "imageCaption": "Salesforce/blip-image-captioning-base",
+      "textToImage": "stabilityai/stable-diffusion-2-1"
+    },
+    "pollinations": {
+      "baseUrl": "https://image.pollinations.ai/prompt/"
+    },
+    "fallbackDemo": true
+  }
+  
